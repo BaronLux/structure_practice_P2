@@ -14,7 +14,7 @@ public:
 		return arr;
 	}
 
-	int* DesksortedGen(int n) // генирирует сортировку от 0 до n
+	int* DesksortedGen(int n) // РіРµРЅРёСЂРёСЂСѓРµС‚ СЃРѕСЂС‚РёСЂРѕРІРєСѓ РѕС‚ 0 РґРѕ n
 	{
 		auto arr = new int[n];
 		for (int i = 0; i < n; i++)
@@ -24,7 +24,7 @@ public:
 		return arr;
 	}
 
-	int* AcsSortedGen(int n) // генерирует сортировку от n до 0
+	int* AcsSortedGen(int n) // РіРµРЅРµСЂРёСЂСѓРµС‚ СЃРѕСЂС‚РёСЂРѕРІРєСѓ РѕС‚ n РґРѕ 0
 	{
 		auto arr = new int[n];
 		for (int i = n; i > 0; i--)
