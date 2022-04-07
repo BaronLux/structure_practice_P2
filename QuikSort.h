@@ -41,7 +41,7 @@ class QuickSort :
         pivot = left;
         left = l_hold;
         right = r_hold;
-        if (left < pivot) // Рекурсивно вызываем сортировку для левой и правой части массива
+        if (left < pivot) // рекурсивно вызываем сортировку для левой и правой части массива
             quickSort(numbers, left, pivot - 1);
         if (right > pivot)
             quickSort(numbers, pivot + 1, right);
