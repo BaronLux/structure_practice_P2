@@ -17,7 +17,7 @@ protected:
 	string name;
 	string delimiter = "----------------------\n";
 
-	virtual int* Alg(int* arr, int n) = 0; // 
+	virtual int* Alg(int* arr, int n) = 0; // функция будет реализована в другик сортировках
 public:
 	void Run(int* arr, int n)
 	{
